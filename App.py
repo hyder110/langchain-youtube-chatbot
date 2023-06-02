@@ -15,6 +15,8 @@ load_dotenv()
 OPENAI_API_KEY = st.text_input("Enter your OpenAI API key", type="password")
 
 
+st.title('Chat With Any Youtube Video 🎥💬')
+ 
 if OPENAI_API_KEY:
     # OpenAI API key
     os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
