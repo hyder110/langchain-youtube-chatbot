@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-st.title('Chat With Any Youtube Video !')
+st.title('Chat With Any Youtube Video 🎥💬')
 
 OPENAI_API_KEY = st.text_input("Enter your OpenAI API key", type="password")
  
@@ -96,7 +96,6 @@ if OPENAI_API_KEY:
 
 
     # *********************** Streamlit App ***********************
-    st.title("Chatbot about Youtube Videos")
 
     # Get the video url from the user
     video_url = st.text_input("Enter a youtube video url")
