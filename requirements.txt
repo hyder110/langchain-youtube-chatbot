@@ -1,0 +1,10 @@
+langchain==0.0.177
+openai
+streamlit==1.22.0
+streamlit_chat==0.0.2.2
+easyocr==1.7.0
+backports.zoneinfo==0.2.1;python_version<"3.8"
+faiss-cpu==1.7.4
+tiktoken==0.4.0
+typing-inspect==0.8.0
+typing_extensions==4.5.0
