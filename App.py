@@ -12,10 +12,10 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
+
+st.title('Chat With Any Youtube Video !')
+
 OPENAI_API_KEY = st.text_input("Enter your OpenAI API key", type="password")
-
-
-st.title('Chat With Any Youtube Video 🎥💬')
  
 if OPENAI_API_KEY:
     # OpenAI API key
